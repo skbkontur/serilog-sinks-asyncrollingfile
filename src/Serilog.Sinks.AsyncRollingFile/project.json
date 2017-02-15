@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0-*",
+  "description": "The async rolling file sink for Serilog",
+  "authors": [ "Yury Pliner" ],
+  "packOptions": {
+    "tags": [ "serilog", "file", "io", "rolling", "async"],
+    "projectUrl": "https://github.com/skbkontur/serilog-sinks-asyncrollingfile.git",
+    "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0"
+  },
+    "dependencies": {
+        "Serilog": "2.4.0",
+        "Serilog.Sinks.Async": "1.0.1",
+        "Serilog.Sinks.RollingFile": "3.3.0"
+    },
+  "frameworks": {
+    "net4.5": {
+      "buildOptions": {
+        "define": [  ]
+      },
+      "frameworkAssemblies": {
+      },
+      "dependencies": {
+      }
+    },
+    "netstandard1.5": {
+      "buildOptions": {
+        "define": [  ]
+      },
+      "dependencies": {      }
+    }
+  }
+}
